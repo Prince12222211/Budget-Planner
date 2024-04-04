@@ -1,0 +1,20 @@
+// @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.navbar {
+    background: linear-gradient(135deg, rgb(18, 135, 63), rgb(58, 58, 125));
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+// .toggle-button-row {
+//     cursor: pointer; /* Change cursor to pointer on hover */
+// }
+
+// .toggle-button-row mat-icon {
+//     font-size: 24px; /* Adjust the font size of the menu icon */
+//     color: #0c0303; /* Change color of the menu icon */
+//     margin-right: 5px; /* Add margin between icon and text */
+// }
