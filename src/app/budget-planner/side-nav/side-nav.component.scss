@@ -9,12 +9,59 @@
     border-radius: 20px;
     color: rgb(255, 255, 255);
 }
-// .toggle-button-row {
-//     cursor: pointer; /* Change cursor to pointer on hover */
-// }
 
-// .toggle-button-row mat-icon {
-//     font-size: 24px; /* Adjust the font size of the menu icon */
-//     color: #0c0303; /* Change color of the menu icon */
-//     margin-right: 5px; /* Add margin between icon and text */
-// }
+.toggle-button-row {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 1001;
+    box-shadow: 0 2px 4px black;
+}
+
+.toggle-button-row mat-icon {
+    font-size: 24px;
+    color: rgb(44, 72, 112);
+}
+.slide-out-panel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background: linear-gradient(135deg,rgb(18, 135, 63),rgb(58, 58, 125));
+    transition: transform 0.3s ease-out;
+    z-index: 1000;
+    border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.slide-out-panel.slide-out{
+    transform: translateX(-100%);
+}
+.edit-col {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.edit-col:hover {
+    color:rgb(8, 143, 132);
+}
+.nav{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(47, 101, 142);
+    margin-top: 40%;
+}
