@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(135deg, rgb(49, 49, 120), rgb(226, 206, 206));
+    background: linear-gradient(135deg, rgb(49, 49, 120), rgb(65, 42, 42));
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     margin: 100px auto 50px auto;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba($color: #324e4e, $alpha: 1.0);
+    box-shadow: 0 0 20px rgba($color: #935b5b, $alpha: 1.0);
     padding: 40px;
 }
 
@@ -39,7 +39,7 @@ input[type="text"] {
     width: 90%;
     padding: 15px;
     border-radius: 6px;
-    border: 1px solid #0a7492;
+    border: 1px solid #682436;
     background-color: #dde9ed;
 }
 
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(135deg, rgb(58, 58, 165), violet);
+    background: linear-gradient(135deg, rgb(11, 193, 138), violet);
 }
 
 p {
@@ -74,6 +74,6 @@ p {
 }
 
 .highlight:hover {
-    color: #2a5965;
+    color: #0c82a0;
     text-decoration: underline;
 }

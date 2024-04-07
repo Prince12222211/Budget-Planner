@@ -1,7 +1,7 @@
 // @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 .navbar {
-    background: linear-gradient(135deg, rgb(18, 135, 63), rgb(58, 58, 125));
+    background: linear-gradient(135deg,  rgb(49, 49, 120), rgb(63, 45, 45));
     padding: 5px 10px;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@
 
 .toggle-button-row mat-icon {
     font-size: 24px;
-    color: rgb(44, 72, 112);
+    color: rgb(42, 73, 121);
 }
 .slide-out-panel{
     position: fixed;
@@ -36,7 +36,7 @@
     left: 0;
     bottom: 0;
     width: 250px;
-    background: linear-gradient(135deg,rgb(18, 135, 63),rgb(58, 58, 125));
+    background: linear-gradient(135deg, rgb(49, 49, 120), rgb(79, 47, 47));
     transition: transform 0.3s ease-out;
     z-index: 1000;
     border-top-right-radius: 20px;
@@ -57,11 +57,11 @@
 }
 
 .edit-col:hover {
-    color:rgb(8, 143, 132);
+    color:rgb(5, 218, 201);
 }
 .nav{
     text-align: center;
     justify-content: center;
-    background-color: rgb(47, 101, 142);
+    background-color: rgb(187, 195, 202);
     margin-top: 40%;
 }
